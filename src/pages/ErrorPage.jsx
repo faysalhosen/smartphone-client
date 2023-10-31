@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Header from "../components/header/Header";
 
 const ErrorPage = () => {
   return (
     <main>
-      
+      <Header />
       <section>
         <div className="container">
           <div className="max-w-[650px] mx-auto pt-10 md:pt-16 text-center">
