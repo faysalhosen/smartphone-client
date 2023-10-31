@@ -9,12 +9,13 @@ import Wishlist from "../pages/Wishlist";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import MyAccount from "../pages/MyAccount";
+import ErrorPage from "../pages/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-  
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: '/',
